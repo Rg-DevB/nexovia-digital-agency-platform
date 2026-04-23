@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Nexovia — Digital Agency Platform
 
-## Getting Started
+Nexovia is a modern web platform designed to help small and medium-sized businesses accelerate their digital transformation through high-performance solutions: websites, automation, CRM systems, and intelligent workflows.
 
-First, run the development server:
+This project represents the **public frontend** of a premium digital agency, built to convert visitors into clients and serve as a scalable foundation for a future SaaS ecosystem.
+
+---
+
+## 🎯 Project Goals
+
+- Present a modern digital agency with a strong value proposition  
+- Convert visitors into qualified leads  
+- Provide a scalable frontend architecture ready for backend integration (Laravel API)  
+- Showcase a results-driven approach (conversion, automation, growth)
+
+---
+
+## ✨ Key Features
+
+### 🌐 Full Public Website
+- Conversion-focused homepage  
+- Dedicated pages:
+  - Services  
+  - Portfolio  
+  - About  
+  - Contact  
+
+### 🎨 Premium UI/UX
+- Modern design inspired by leading SaaS platforms (Vercel, Stripe)  
+- Dark mode by default  
+- Fully responsive (mobile-first)  
+- Reusable components architecture  
+
+### ⚡ User Experience
+- Smooth animations (Framer Motion)  
+- Page transitions  
+- Micro-interactions (hover, scroll, reveal)
+
+### 📩 Contact Form
+- Ready to connect with a backend API (Laravel)  
+- Handles loading, success, and error states  
+
+---
+
+## 🧱 Tech Stack
+
+- **Next.js (App Router)** — Modern React framework  
+- **TypeScript** — Strong typing for scalability  
+- **Tailwind CSS** — Utility-first styling  
+- **shadcn/ui** — Component system  
+- **Framer Motion** — Advanced animations  
+
+---
+
+## 📁 Project Structure
+
+/app  
+  /page.tsx              # Homepage  
+  /services              # Services page  
+  /portfolio             # Projects showcase  
+  /about                 # About page  
+  /contact               # Contact page  
+
+/components  
+  Navbar.tsx  
+  Footer.tsx  
+  Hero.tsx  
+  ServiceCard.tsx  
+  CTASection.tsx  
+  ContactForm.tsx  
+
+/lib  
+  api.ts                 # API integration (Laravel backend)  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/nexovia-frontend.git
